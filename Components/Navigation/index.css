@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    height: 104px;
+    box-sizing: border-box;
+}
+.navBarLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBarList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.contactNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.dropDownListItem{
+    display: flex;
+    gap: 5px;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.dropDownListItem::after{
+content: url(../../Assets/DropDownArrow.svg);
+position: absolute;
+top: -2px;
+right: -15px;
+}
+.navBarListAlignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.navBarRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.signIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitListingButton{
+    width: 152px;
+    height: 48px;
+    background-color: white;
+    border-radius: 16px;
+}
