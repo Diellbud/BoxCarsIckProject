@@ -6,12 +6,10 @@
     padding: 10px;
     height: 190px;
     width: 210px;
-    border: 3px;
-    border-style:solid;
     box-sizing: border-box;
-    border-radius: 16px;
+
 }
 .typeImg{
-    width: 165px;
+    width: 185px;
     height: 150px;
 }
