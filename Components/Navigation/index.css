@@ -71,10 +71,25 @@ right: -15px;
     background-color: white;
     border-radius: 16px;
 }
-.hamburgerIcon{
+.burgerIcon{
     display: none;
     width: 40px;
     height: 40px;  
+}
+.navBarListMobile{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    height: 270px;
+    background-color: white;
+    left: 0;
+    width: 100%;
+    top: 104px;
+    position: absolute;
+    font-weight: 800;
 }
 @media screen and (max-width:1000px) {
     .navBarList{
@@ -83,7 +98,14 @@ right: -15px;
     .navBarRight{
         display: none;
     }
-    .hamburgerIcon{
+    .burgerIcon{
         display: block;
+    }
+    .dropDownListItem::after{
+        display: none;
+    }
+    .navBarListAlignment{
+        display: flex;
+        flex-direction: column;
     }
 }

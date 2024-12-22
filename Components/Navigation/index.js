@@ -9,7 +9,7 @@ class NavigationComponent extends HTMLElement {
         <nav class="navBar">
             <div class="navBarLeft">
                 <img src="../../Assets/General/Logo.svg" alt="">
-                <ul class="navBarList">
+                <ul class="navBarList" id="navBarList">
                     <li class="dropDownListItem">Home</li>
                     <li class="dropDownListItem">Listings</li>
                     <li class="dropDownListItem">Blog</li>
@@ -33,7 +33,9 @@ class NavigationComponent extends HTMLElement {
                     Submit Listing
                 </button>
             </div>
-            <img class="hamburgerIcon" src="../../Assets/NavigationAssets/HamburgerIcon.svg" alt="">
+            <div class="burgerDiv" onclick="handleBurgerMenu()">
+                <img class="burgerIcon" id="burgerMenu" src="../../Assets/NavigationAssets/BurgerIcon.svg" alt="">
+            </div>
         </nav>
     </header>
         `
