@@ -1,0 +1,112 @@
+.topSection {
+    background-image: url(../../Assets/Images/Tabpanel.png);
+    height: 960px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 120px;
+    color: white;
+}
+
+.topSectionDiv {
+    align-items: start;
+}
+
+.topFontContainer {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'DM Sans';
+    padding-left: 120px;
+}
+
+.topFontContainer2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'DM Sans';
+    padding-left: 120px;
+}
+
+.topSectionDiv2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 450px;
+    padding-left: 85px;
+    padding-top: 10px;
+}
+
+.topContainerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    font-family: 'DM Sans';
+}
+
+.learnMoreButton{
+    margin-left: 120px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.sectionTypeCar{
+    margin: 170px;
+    background-color: #ffffff; 
+}
+
+.browseByTypeArticle{
+    display: flex;
+    margin-left: 120px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.viewAllButton{
+    margin-left: 120px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.carTypesArticle{
+    padding-left: 15px;
+    width: min-content;
+
+}
+
+.bigContainerCarType{
+    display: flex;
+    gap: 15px;
+    padding-left: 120px;
+}
+
+.sedan{
+    display: flex;
+    justify-content: center;
+}
