@@ -54,11 +54,12 @@ right: -15px;
     margin-right: 15px;
     margin-left: 15px;
 }
-.navBarRight{
+.navBarRight {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 20px;
+    margin-left: auto; 
 }
 .signIn{
     display: flex;
