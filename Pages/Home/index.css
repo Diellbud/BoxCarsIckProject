@@ -10,6 +10,7 @@
     align-items: flex-start;
     padding-left: 120px;
     color: white;
+    background-repeat: no-repeat;
 }
 
 .topSectionDiv {
@@ -58,7 +59,7 @@
     font-family: 'DM Sans';
 }
 
-.learnMoreButton{
+.learnMoreButton {
     margin-left: 120px;
     padding: 10px 20px 10px 20px;
     margin-top: 50px;
@@ -68,24 +69,29 @@
     border-radius: 10px;
 }
 
-.sectionTypeCar{
+.sectionTypeCar {
+    display: flex;
     margin: 170px;
-    background-color: #ffffff; 
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 
-.browseByTypeArticle{
+.browseByTypeArticle {
     display: flex;
-    margin-left: 120px;
     padding: 10px 20px 10px 20px;
     margin-top: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     gap: 10px;
     border-radius: 10px;
     justify-content: space-between;
+    color: #050b20;
 }
 
-.viewAllButton{
+.viewAllButton {
     margin-left: 120px;
     padding: 10px 20px 10px 20px;
     display: flex;
@@ -94,19 +100,174 @@
     border-radius: 10px;
 }
 
-.carTypesArticle{
+.carTypesArticle {
     padding-left: 15px;
     width: min-content;
 
 }
 
-.bigContainerCarType{
+.bigContainerCarType {
     display: flex;
     gap: 15px;
-    padding-left: 120px;
 }
 
-.sedan{
+.sedan {
     display: flex;
     justify-content: center;
+    color: #050b20;
+}
+
+.exploreAllVehicleSection {
+    align-items: start;
+}
+
+.exploreAllVehicleDiv {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 165px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+    color: #050b20;
+}
+
+
+.vehicleExploreHeader {
+    align-items: start;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 200px;
+}
+
+.exploreAllVehicleDiv2 {
+    display: flex;
+    padding: 10px 20px 10px 20px;
+}
+
+.recentCarsText {
+    display: flex;
+    justify-content: start;
+    margin-left: 240px;
+}
+
+.viewAllButton2 {
+    margin-left: 120px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    margin-right: 160px;
+}
+
+
+.eightVehicleDiv {
+
+}
+
+.vehiclesDiv{
+
+}
+
+.FixedCarsSystem{
+    display: flex;
+}
+
+.sectionVehiclesSelected{
+    display: flex   ;
+    margin: 170px;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.card {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.card-subtitle {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.card-info div {
+    text-align: center;
+}
+
+.card-info div svg {
+    width: 20px;
+    height: 20px;
+    fill: #444;
+}
+
+.card-price {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 0.9em;
+    transition: color 0.3s;
+}
+
+.card-link:hover {
+    color: #0056b3;
+}
+
+.bookmark {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.bookmark svg {
+    width: 18px;
+    height: 18px;
+    fill: #444;
 }
