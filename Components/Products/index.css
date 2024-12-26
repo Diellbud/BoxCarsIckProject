@@ -1,0 +1,114 @@
+.productContainer{
+    width: 328px;
+    border-color: #E9E9E9;
+    border-style: solid;
+    border-radius: 16px;
+}
+.productImgContainer{
+    position: relative;
+}
+.productImg{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.productImpression{
+    color: white;
+    position: absolute;
+    width: 104px;
+    height: 30px;
+    border-radius: 18px;
+    top: 13px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productOnSale{
+    background-color: #405FF2;
+    width: 57px;
+}
+.productGreatPrice{
+    background-color: #3D923A;
+}
+.productLowMileage{
+    background-color: #405FF2;
+}
+.productBookmarkContainer{
+    background-color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productInfoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+.productTitle{
+    font-size: 1.1em;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 10px;
+    border-color: #E9E9E9;
+    width: 100%;
+}
+.productDetailsContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 10px;
+    border-color: #E9E9E9;
+    width: 100%;
+}
+.productDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mileageText::after{
+    content: " Miles";
+}
+.productPricingContainer{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.productViewDetails{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #405FF2;
+}
+.productViewDetails img{
+    width: 14px;
+    height: 14px;
+}
+.previousProductPricing{
+    text-decoration: line-through;
+}
+
+.productPrice{
+    font-size: larger;
+}
+.productPrice::after{
+    content: " €";
+}

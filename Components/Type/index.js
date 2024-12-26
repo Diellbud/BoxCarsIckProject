@@ -8,7 +8,7 @@ class TypeComponent extends HTMLElement {
         this.innerHTML = `
             <link rel="stylesheet" href="../../Components/Type/index.css">
             <div class="typeItem">
-                 <img class="typeImg" src="${source}" alt="SUV_IMG">
+                 <img class="typeImg" src="${source}" alt="CAR_IMG">
                  <h4>${name}</h4>
             </div>
         `
