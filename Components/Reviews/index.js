@@ -46,7 +46,7 @@ class ReviewComponent extends HTMLElement {
                              
         }
         let isVerified = ''
-        if (Verified){
+        if (Verified === "True"){
             isVerified += '<div class="reviewVerification"><img src="../../Assets/Review/VerifiedBage.svg" alt=""><h3>Verified</h3></div>'
         }
         this.innerHTML = `
