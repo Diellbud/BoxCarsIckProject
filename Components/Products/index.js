@@ -18,10 +18,10 @@ class ProductComponent extends HTMLElement {
         if (isProductOnSale) {
             impressions += `<div class="productOnSale productImpression">Sale</div>`;
         }
-        if (isGreatPrice) {
+        else if (isGreatPrice) {
             impressions += `<div class="productGreatPrice productImpression">Great Price</div>`;
         }
-        if (isLowMileage) {
+        else if (isLowMileage) {
             impressions += `<div class="productLowMileage productImpression">Low Mileage</div>`;
         }
         this.innerHTML = `
