@@ -371,3 +371,8 @@ margin-top: 100px;
 .footerComponent{
     margin-top: 120px;
 }
+
+
+body{
+    overflow-x: hidden;
+}
