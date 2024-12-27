@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.blogContainer{
+    width: 447px;
+    height: 411px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.blogImgContainer{
+    position: relative;
+}
+.blogImg{
+    width: 100%;
+    height: 298px;
+    border-radius: 16px;
+}
+.blogType{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.soundBlogType{
+    width: 71px;
+}
+.accessoriesBlogType{
+    width: 110px;
+}
+.exteriorBlogType{
+    width: 81px;
+}
+.blogInfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.blogDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 20px;
+}

@@ -4,9 +4,9 @@ class ProductComponent extends HTMLElement {
     }
     render() {
         const productImg = this.getAttribute('productImg') 
-        const isProductOnSale = this.getAttribute('onSale') == "true";
-        const isGreatPrice = this.getAttribute('greatPrice') == "true";
-        const isLowMileage = this.getAttribute('lowMileage') == "true";
+        const isProductOnSale = this.getAttribute('onSale') == "true"
+        const isGreatPrice = this.getAttribute('greatPrice') == "true"
+        const isLowMileage = this.getAttribute('lowMileage') == "true"
         const productTitle = this.getAttribute('productTitle')
         const productDesc = this.getAttribute('productDesc')
         const mileage = this.getAttribute('mileage')
