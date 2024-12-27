@@ -7,7 +7,7 @@ class FinancingOfferComponent extends HTMLElement {
         this.innerHTML = `
             <link rel="stylesheet" href="../../Components/WhyChooseUs/index.css">
             <div class="firstContainer">
-                <img src="c:/Users/darisd/Desktop/Git_Projects/BoxCarsIckProject/Assets/WhyChooseUsSvgs/FinancingOffers.svg" 
+                <img src="../../Assets/WhyChooseUsSVGs/ExpertService.svg" 
                      alt="svg" class="svgForContainer">
                 <h2 class="textInsideContainer">
                     Special Financing <br> <span>Offers</span>
