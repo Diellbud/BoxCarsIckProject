@@ -3,19 +3,18 @@
     padding: 0;
 }
 .blogContainer{
-    width: 447px;
-    height: 411px;
     display: flex;
     flex-direction: column;
     gap:10px;
-}
-.blogImgContainer{
-    position: relative;
+    box-sizing: border-box;
 }
 .blogImg{
     width: 100%;
     height: 298px;
     border-radius: 16px;
+}
+.blogImgContainer{
+    position: relative;
 }
 .blogType{
     position: absolute;
@@ -27,6 +26,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 30px;
+    z-index: 1;
 }
 .soundBlogType{
     width: 71px;
