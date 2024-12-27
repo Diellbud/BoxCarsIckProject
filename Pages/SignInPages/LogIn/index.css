@@ -21,13 +21,13 @@ body{
     top: 0;
     bottom: 0;
     margin: auto;
-    height: 722px;
+    height: 604px;
     width: 538px;
     border-radius: 26px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around;  
 }
 .containerTitle{
     align-self: flex-start;
@@ -62,17 +62,9 @@ input {
 input::placeholder{
     color: #B0A9A9;
 }
-.agreeTermsContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+.forgotPassword{
     align-self: flex-start;
     margin-left: 7%;
-}
-.agreeTerms{
-    width: 22px;
-    height: 22px;
 }
 .submitButton{
     background-color: #0016DF;
