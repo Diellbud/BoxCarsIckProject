@@ -63,9 +63,9 @@ class FooterComponent extends HTMLElement {
         <div class="specialSocialMediaFakeContainer">
             <div class="footerSale">
                 <h3>Sale Hours</h3>
-                <p>Monday – Friday:<br> 09:00AM – 09:00 PM <br>
-                    Saturday: <br> 09:00AM – 07:00PM <br>
-                    Sunday: Closed</p>
+                <p>Monday – Friday:<br> 09:00AM – 09:00 PM</p>
+                 <p>Saturday: <br> 09:00AM – 07:00PM</p>
+                    <p>Sunday: Closed</p>
             </div>
             <div class="socialMediaContainer">
                 <h3>Connect With Us</h3>
@@ -79,7 +79,7 @@ class FooterComponent extends HTMLElement {
         </div>
     </div>
     <div class="bottomFooter">
-        <p>© 2024 exemple.com. All rights reserved.</p>
+        <p>© 2024 example.com. All rights reserved.</p>
         <div class="bottomFooterContainer"><p>Terms & Conditions</p><p>Privacy Notice</p></div>
     </div>
 </footer>

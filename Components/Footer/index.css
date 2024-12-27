@@ -5,31 +5,44 @@
 .footerContainer{
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 3fr));
-    text-align: center;
+    text-align: left;
     gap: 60px;
-    padding: 40px;
     background-color: #F9FBFC;
     width: 100vw;
 }
 li{
     list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .specialSocialMediaFakeContainer{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 80px;
 }
 .bottomFooter{
+    width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 80px;
+    padding: 20px;
     background-color: #F9FBFC;
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: #E1E1E1;
+    
 }
 .bottomFooterContainer{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+.footerSale{
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 @media screen and (max-width: 1490px) {
