@@ -35,8 +35,8 @@ class ProductComponent extends HTMLElement {
             </div>
         </div>
         <div class="productInfoContainer">
-            <div class="productTitle">
-                <h4>${productTitle}</h4>
+            <div class="productTitleContainer">
+                <h4 class="productTitle">${productTitle}</h4>
                 <p>${productDesc}</p>
             </div>
             <div class="productDetailsContainer">

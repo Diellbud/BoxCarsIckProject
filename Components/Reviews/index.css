@@ -37,6 +37,22 @@
     align-items: center;
     gap: 5px;
 }
+.reviewText{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.reviewText h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+.reviewDesc{
+    font-size: 14px;
+    font-weight: 400;
+}
 .Author{
-    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
 }

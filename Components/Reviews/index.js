@@ -58,9 +58,9 @@ class ReviewComponent extends HTMLElement {
             </div>
             ${isVerified}
         </div>
-        <div>
+        <div class="reviewText">
             <h2>${Title}</h2>
-            <p>${Description}</p>
+            <p class="reviewDesc">${Description}</p>
             <p class="Author">${Author}</p>
         </div>
     </div>

@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 *{
+    font-family: "DM Sans", serif;
     margin: 0;
     padding: 0;
 }
@@ -28,6 +31,7 @@ body{
     color: white;
     top: 15%;
     align-items: center;
+    font-size: 1.4em;
 }
 .chooseType{
     display: flex;
@@ -134,7 +138,12 @@ body{
     gap: 60px;
 }
 .onlineFrameFakeContainer h1{
-    width: 270px;
+    width: 400px;
+    font-size: 40px;
+}
+.onlineFrameFakeContainer p{
+    font-size: 15px;
+    font-weight: 200;
 }
 .onlineGetStarted{
     width: 159px;
@@ -178,8 +187,8 @@ body{
     grid-template-columns: repeat(4, minmax(0, 1fr));
     margin-top: 30px;
 }
-.blogContainer{
-   margin: 20px;
+.blogsContainer{
+   padding: 60px;
 }
 .blogFakeContainer {
     display: grid;
