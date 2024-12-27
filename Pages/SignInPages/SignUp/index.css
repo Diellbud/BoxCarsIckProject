@@ -9,6 +9,8 @@ body{
 }
 .imgContainer{
     position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 .imgContainer img{
     width: 100vw;
@@ -82,4 +84,26 @@ a{
     font-weight: 600;
     text-decoration: none;
     color: black;
+}
+@media screen and (max-width: 1000px) {
+    .imgContainer img{
+        display: none;
+    } 
+    .imgContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0016DF90;
+    }
+    .container{
+        position: relative;
+    }
+}
+@media screen and (max-width: 570px) {
+    .imgContainer{
+        background-color: white;
+    }
+    .container{
+        background-color: #00000000;
+    }
 }
