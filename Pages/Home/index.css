@@ -1,5 +1,5 @@
 .topSection {
-    background-image: url(../../Assets/Images/Tabpanel.png);
+    background-image: url(../../Assets/General/Background.png);
     height: 960px;
     width: 100%;
     display: flex;
@@ -11,6 +11,7 @@
     padding-left: 120px;
     color: white;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .topSectionDiv {
@@ -82,13 +83,12 @@
 .browseByTypeArticle {
     display: flex;
     padding: 10px 20px 10px 20px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;    
+    margin-top: 50px ;
     gap: 10px;
     border-radius: 10px;
     justify-content: space-between;
     color: #050b20;
+    margin-left: 120px;
 }
 
 .viewAllButton {
@@ -99,6 +99,7 @@
     gap: 10px;
     border-radius: 10px;
 }
+
 
 .carTypesArticle {
     padding-left: 15px;
@@ -150,31 +151,21 @@
 .recentCarsText {
     display: flex;
     justify-content: start;
-    margin-left: 240px;
+    margin-left: 120px;
+    
 }
 
 .viewAllButton2 {
-    margin-left: 120px;
+    margin-left: 150px;
+    margin-right: 100px;
     padding: 10px 20px 10px 20px;
     display: flex;
     justify-content: center;
     gap: 10px;
     border-radius: 10px;
-    margin-right: 160px;
+    
 }
 
-
-.eightVehicleDiv {
-
-}
-
-.vehiclesDiv{
-
-}
-
-.FixedCarsSystem{
-    display: flex;
-}
 
 .sectionVehiclesSelected{
     display: flex   ;
@@ -186,88 +177,48 @@
     align-content: space-around;
 }
 
-.card {
-    width: 300px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.card-content {
-    padding: 15px;
-}
-
-.card-title {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 0 0 10px;
-}
-
-.card-subtitle {
-    color: #666;
-    font-size: 0.9em;
-    margin-bottom: 15px;
-}
-
-.card-info {
+.eightCarDiv{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    color: #444;
+    flex-wrap: wrap;
+    margin-left: 120px;
+    gap: 15px;
 }
 
-.card-info div {
-    text-align: center;
+.onlineInPersonDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 300px;
+    gap: 30px;
 }
 
-.card-info div svg {
-    width: 20px;
-    height: 20px;
-    fill: #444;
-}
-
-.card-price {
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 10px;
-}
-
-.card-link {
-    text-decoration: none;
-    color: #007bff;
-    font-size: 0.9em;
-    transition: color 0.3s;
-}
-
-.card-link:hover {
-    color: #0056b3;
-}
-
-.bookmark {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: #fff;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+.getStartedButton{
     display: flex;
     justify-content: center;
-    align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
+    gap: 10px;
+    border-radius: 5px;
+    width: 150px;
+    background-color: #050B20;
+    color: #ffffff;
 }
 
-.bookmark svg {
-    width: 18px;
-    height: 18px;
-    fill: #444;
+.onlineInPersonHeader{
+    width: 250px;
+}
+
+.onlineInPersonParagraph{
+    width: 500px;
+}
+
+.fourParagraphText{
+    display: flex;
+    margin-left: 300px;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 500px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    margin-right: 275px;
+
+
 }
