@@ -207,7 +207,7 @@
 }
 
 .onlineInPersonParagraph{
-    width: 500px;
+    margin-right: 975px;
 }
 
 .fourParagraphText{
@@ -215,10 +215,32 @@
     margin-left: 300px;
     flex-direction: row;
     gap: 15px;
-    margin-top: 500px;
     background-color: #ffffff;
-    margin-bottom: 50px;
     margin-right: 275px;
+}
 
+.whyChooseUsDiv{
+display: flex;
+align-items: flex-start;
+margin-left: 300px;
+margin-top: 250px;
+gap: 10px;
+}
 
+.specialOffersText{
+    display: flex;
+    justify-content: start;
+    margin-left: 270px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.fourCarSection{
+    margin-left: 270px;
+}
+
+.fourCarDiv{
+display: flex;
+flex-direction: row;
+gap: 15px;
 }
