@@ -11,7 +11,7 @@ class NavigationComponent extends HTMLElement {
                 <img src="../../Assets/General/Logo.svg" alt="">
                 <ul class="navBarList" id="navBarList">
                     <li class="dropDownListItem">Home</li>
-                    <li class="dropDownListItem">Listings</li>
+                <a href="../../Pages/Listings/index.html"><li class="dropDownListItem">Listings</li></a>
                     <li class="dropDownListItem">Blog</li>
                     <li class="dropDownListItem">Pages</li>
                     <span class="navBarListAlignment">
@@ -25,16 +25,16 @@ class NavigationComponent extends HTMLElement {
                 </ul>
             </div>
             <div class="navBarRight">
-                <div class="signIn">
+              <a href="../SignInPages/LogIn/index.html">  <div class="signIn">
                     <img src="../../Assets/NavigationAssets/UserIcon.svg" alt="">
                     <p>Sign In</p>
-                </div>
+                </div></a>
                 <button class="submitListingButton">
                     Submit Listing
                 </button>
             </div>
             <div class="burgerDiv" onclick="handleBurgerMenu()">
-                <img class="burgerIcon" id="burgerMenu" src="../../Assets/NavigationAssets/BurgerIcon.svg" alt="">
+                <img class="burgerIcon" id="burgerMenu" src="../../Assets/NavigationAssets/BurgerIcon.svg" alt="Menu Icon">
             </div>
         </nav>
     </header>

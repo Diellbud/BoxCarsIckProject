@@ -66,6 +66,7 @@ right: -15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 .submitListingButton{
     width: 152px;
@@ -73,10 +74,14 @@ right: -15px;
     background-color: white;
     border-radius: 16px;
 }
-.burgerIcon{
+.burgerDiv {
     display: none;
+    justify-content: center;
+    align-items: center;
+}
+.burgerIcon{
     width: 40px;
-    height: 40px;  
+    height: 40px; 
 }
 .navBarListMobile{
     display: flex;
@@ -85,13 +90,18 @@ right: -15px;
     justify-content: center;
     gap: 20px;
     list-style-type: none;
-    height: 270px;
+    height: calc auto;
     background-color: white;
     left: 0;
     width: 100%;
     top: 104px;
     position: absolute;
     font-weight: 800;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 @media screen and (max-width:1000px) {
     .navBarList{
@@ -100,8 +110,8 @@ right: -15px;
     .navBarRight{
         display: none;
     }
-    .burgerIcon{
-        display: block;
+    .burgerDiv{
+        display: flex;
     }
     .dropDownListItem::after{
         display: none;
