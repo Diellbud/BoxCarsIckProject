@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 3fr));
     text-align: center;
-    gap: 60px;
+    gap: 40px;
     padding: 40px;
     background-color: #F9FBFC;
     width: 100vw;

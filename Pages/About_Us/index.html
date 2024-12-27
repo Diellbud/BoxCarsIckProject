@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxCars</title>
+    <link rel="stylesheet" href="../../Components/Why Choose Us/index.css">
+</head>
+
+<body>
+    <nav-bar-component></nav-bar-component>
+
+    <div class="imageContainer">
+        <img src="../../Assets/Images/E-tron.png" alt="About Us Background" class="backgroundImageAudi">
+        <h1 class="mainHeader">
+            ABOUT US
+        </h1>
+    </div>
+
+    <h2 class="secondHeader">
+        Why Choose Us?
+    </h2>
+
+    <div class="financingOffers">
+        <financing-offer-component></financing-offer-component>
+        <financing-offer-component></financing-offer-component>
+        <financing-offer-component></financing-offer-component>
+        <financing-offer-component></financing-offer-component>
+    </div>
+
+    <div class="twoImagesPageContainer">
+
+        <div class="centerContainer">
+            <div class="imageAndTextContainer">
+                <div class="twoImageContainer">
+                    <img src="C:\Users\darisd\Desktop\Git_Projects\BoxCarsIckProject\Assets\Images\mercedes.png"
+                        alt="mercedes Image" class="smallImage">
+                    <img src="C:\Users\darisd\Desktop\Git_Projects\BoxCarsIckProject\Assets\Images\bridge.png"
+                        alt="bridgeImage" class="largeImage">
+                </div>
+                <div class="textContainer">
+                    <h2> Get a fair Price For Your</h2>
+                    <h2>Car Sell To Us Today</h2>
+                    <p>We are committed to providing our customers with exceptional service, competitive pricing, and a
+                        wide range of benefits:</p>
+                    <ul>
+                        <li>✔️We are Kosovo's largest provider, with more patrols in more places.</li>
+                        <br>
+                        <li>✔️You get 24/7 roadside assistance.</li>
+                        <br>
+                        <li>✔️We fix 4 out of 5 cars at the roadside.</li>
+                    </ul>
+                    <button>Get Started</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="millionsList">
+            <ul class="horizontalList">
+                <li>
+                    <h2>836M</h2>
+                    <p>Cars For Sale</p>
+                </li>
+                <li>
+                    <h2>738M</h2>
+                    <p> Dealer Reviews</p>
+                </li>
+                <li>
+                    <h2>100M</h2>
+                    <p>Visitors Per Day</p>
+                </li>
+                <li>
+                    <h2>238M</h2>
+                    <p>Verified Dealers</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="containerForReviews">
+        <h2 class="reviewsSubHeader">
+            What our Customers Say!
+        </h2>
+        <div class="reviewComponentStyle">
+            <review-component rating="5" verified="True" title="Exceptional service and amazing car!"
+                description="The team made the process seamless, and the car was exactly as described. I couldn't be happier with my purchase."
+                author="Emma Johnson">
+            </review-component>
+            <review-component rating="4" verified="True" title="Great experience overall"
+                description="The car was in excellent condition, and the staff was very knowledgeable. There was a slight delay in paperwork, but otherwise, everything was perfect."
+                author="Michael Smith">
+            </review-component>
+            <review-component rating="5" verified="True" title="Highly recommend this dealership"
+                description="I was hesitant about buying a car online, but the process was smooth and transparent. The BMW I purchased runs like a dream!"
+                author="Sophia Davis">
+            </review-component>
+            <review-component rating="4" verified="True" title="Quality cars and excellent support"
+                description="The sales rep was very helpful in answering all my questions. The car's quality exceeded my expectations. Would definitely recommend!"
+                author="Liam Wilson">
+            </review-component>
+        </div>
+    </div>
+
+    <h2 class="carsBodyStyleHeader">
+        Select a Body Style
+    </h2>
+    <div class="carsBodyStyle">
+        <type-component name="Sedan" source="../../Assets/TypeAssets/Sedan.png"></type-component>
+        <type-component name="Coupe" source="../../Assets/TypeAssets/Coupe.png"></type-component>
+        <type-component name="SUV" source="../../Assets/TypeAssets/SUV.png"></type-component>
+        <type-component name="Truck" source="../../Assets/TypeAssets/Truck.png"></type-component>
+        <type-component name="Hatchback" source="../../Assets/TypeAssets/HatchBack.png"></type-component>
+        <type-component name="Convertible" source="../../Assets/TypeAssets/Convertible.png"></type-component>
+    </div>
+
+
+    <h2 class="productsSubHeader">
+        New Cars
+    </h2>
+    <div class="productsComponent">
+
+        <product-component productImg="../../Assets/Images/Bmw-M5.png" onSale="true" greatPrice="true" lowMileage="true"
+            productTitle="BMW M5" productDesc="A high-performance luxury sedan with precision engineering."
+            mileage="9,000 km" typeOfFuel="Gasoline" typeOfTransmission="Automatic" previousPrice="$120,000"
+            price="$115,000">
+        </product-component>
+
+        <product-component productImg="../../Assets/Images/Bentley.png" onSale="true" greatPrice="false"
+            lowMileage="true" productTitle="Bentley Continental GT"
+            productDesc="A luxury grand tourer with exceptional performance and comfort." mileage="8,000 km"
+            typeOfFuel="Gasoline" typeOfTransmission="Automatic" previousPrice="$240,000" price="$230,000">
+        </product-component>
+
+        <product-component productImg="../../Assets/Images/Lambo-Urus.png" onSale="false" greatPrice="true"
+            lowMileage="false" productTitle="Lamborghini Urus"
+            productDesc="A super SUV combining breathtaking performance with luxury." mileage="15,000 km"
+            typeOfFuel="Gasoline" typeOfTransmission="Automatic" previousPrice="$220,000" price="$220,000">
+        </product-component>
+
+        <product-component productImg="../../Assets/Images/Porsche-Taycan.png" onSale="true" greatPrice="true"
+            lowMileage="true" productTitle="Porsche Taycan"
+            productDesc="A high-performance electric sports car with innovative technology." mileage="10,000 km"
+            typeOfFuel="Electric" typeOfTransmission="Automatic" previousPrice="$140,000" price="$135,000">
+        </product-component>
+
+    </div>
+
+    <div class="onlineFrameContainer">
+        <div class="onlineFrame">
+            <img src="../../Assets/Images/ToyCar.png" alt="ToyCar Image">
+            <div class="onlineFrameFakeContainer">
+                <div class="textInsideOnlineFrame">
+                    <h1>Auto Loan Calculator</h1>
+                    <p>Use this car payment calculator to estimate monthly payments on your next new or used auto loan.
+                    </p>
+                    <div class="loanCalculatorFormContainer">
+                        <form class="loanCalculatorForm">
+                            <div class="formGroup">
+                                <label for="price">Price ($)</label>
+                                <input type="number" id="price" placeholder="10000">
+                            </div>
+                            <div class="formGroup">
+                                <label for="interestRate">Interest Rate (%)</label>
+                                <input type="number" id="interestRate" placeholder="10">
+                            </div>
+                            <div class="formGroup">
+                                <label for="loanTerm">Loan Term (years)</label>
+                                <input type="number" id="loanTerm" placeholder="3">
+                            </div>
+                            <div class="formGroup">
+                                <label for="downPayment">Down Payment</label>
+                                <input type="number" id="downPayment" placeholder="5000">
+                            </div>
+                            <button type="submit" class="calculateButton">Calculate</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="brandsHeader">
+        Explore our Premium Brands
+    </h1>
+    <div class="brandsComponent">
+        <brand-component src="../../Assets/BrandAssets/Audi.svg" title="Audi"></brand-component>
+        <brand-component src="../../Assets/BrandAssets/BMW.svg" title="BMW"></brand-component>
+        <brand-component src="../../Assets/BrandAssets/Ford.svg" title="Ford"></brand-component>
+        <brand-component src="../../Assets/BrandAssets/Mercedes.svg" title="Mercedes"></brand-component>
+        <brand-component src="../../Assets/BrandAssets/Peugeot.svg" title="Peugeot"></brand-component>
+        <brand-component src="../../Assets/BrandAssets/Volkswagen.svg" title="Volkswagen"></brand-component>
+
+    </div>
+
+    <h1 class="blogHeader">
+        Latest Blog Posts
+    </h1>
+    <div class="blogComponent">
+        <blog-component blogImg=../../Assets/Blog/CarImgs/image1.png sound="True" writer="Daris Dervishaga"
+            date="April 3rd, 2024" blogTitle="The all new Volvo SUV">
+        </blog-component>
+        <blog-component blogImg=../../Assets/Blog/CarImgs/image.png sound="False" writer="Diell Budima"
+            date="January 15th, 2024" blogTitle="The all new Volvo SUV">
+        </blog-component>
+        <blog-component blogImg=../../Assets/Blog/CarImgs/image2.png sound="True" writer="Leart Rama"
+            date="December 27, 2024" blogTitle="The all new Volvo SUV">
+        </blog-component>
+    </div>
+
+    <div class="footerComponent">
+        <footer-component></footer-component>
+    </div>
+
+</body>
+
+<script src="../../Components/Navigation/index.js"></script>
+<script src="../../Components/Type/index.js"></script>
+<script src="../../Components/Navigation/index1.js"></script>
+<script src="../../Components/Why Choose Us/index.js"></script>
+<script src="../../Components/Reviews/index.js"></script>
+<script src="../../Components/Type/index.js"></script>
+<script src="../../Components/Products/index.js"></script>
+<script src="../../Components/Brand/index.js"></script>
+<script src="../../Components/Blog/index.js"></script>
+<script src="../../Components/Footer/index.js"></script>
+
+</html>
