@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxCars</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav-bar-component></nav-bar-component>
+    <div class="mainImgContainer">
+        <img class="mainImg" src="../../Assets/ListingAssets/ListingsBackground.png" alt="">
+        <div class="mainImgTextContainer">
+            <p class="mainImgParagraph">The World's Largest Car Dealership</p>
+            <h1 class="mainImgHeader">Find Your Perfect Vehicle Online</h1>
+        </div>
+    </div>
+    <div class="chooseType">
+        <h1 class="typeTitle">Select a Body Style</h1>
+        <div class="typeContainer">
+            <type-component name="Sedan" source="../../Assets/TypeAssets/Sedan.png"></type-component>
+            <type-component name="Coupe" source="../../Assets/TypeAssets/Coupe.png"></type-component>
+            <type-component name="SUV" source="../../Assets/TypeAssets/SUV.png"></type-component>
+            <type-component name="Truck" source="../../Assets/TypeAssets/Truck.png"></type-component>
+            <type-component name="Hatchback" source="../../Assets/TypeAssets/Hatchback.png"></type-component>
+            <type-component name="Convertible" source="../../Assets/TypeAssets/Convertible.png"></type-component>
+        </div>
+    </div>
+    <div class="chooseProduct">
+        <h1 class="productContainertitle">The Most Searched Cars</h1>
+        <div class="multipleProductContainer">
+            <product-component productImg="../../Assets/ProductAssets/CarImages/BMW-X8.png"
+                               onSale="false"
+                               greatPrice="false"
+                               lowMileage="false"
+                               productTitle="BMW X8"
+                               productDesc="4.0 D5 Power Momentum AWD"
+                               mileage="150"
+                               typeOfFuel="Diesel"
+                               typeofTransmission="Automatic"
+                               previousPrice=""
+                               price="17,293">
+            </product-component>
+            <product-component productImg="../../Assets/ProductAssets/CarImages/Audi-A4.png"
+                                onSale="false"
+                                greatPrice="true"
+                                lowMileage="false"
+                                productTitle="Audi A4"
+                                productDesc="2.0 D5 Power Momentum AWD"
+                                mileage="550"
+                                typeOfFuel="LPG"
+                                typeofTransmission="CVT"
+                                previousPrice=""
+                                price="120,000">
+            </product-component>
+            <product-component productImg="../../Assets/ProductAssets/CarImages/C-Class.png"
+                               onSale="true"
+                               greatPrice="false"
+                               lowMileage="false"
+                               productTitle="C Class"
+                               productDesc="3.5 D3 Power Momentum AWD"
+                               mileage="321"
+                               typeOfFuel="Petrol"
+                               typeofTransmission="Manual"
+                               previousPrice="19,999"
+                               price="11,999">
+            </product-component>
+            <product-component productImg="../../Assets/ProductAssets/CarImages/Ranger-White.png"
+                               onSale="false"
+                               greatPrice="false"
+                               lowMileage="true"
+                               productTitle="Ranger White"
+                               productDesc="6.9 D6 Power Momentum AWD"
+                               mileage="13"
+                               typeOfFuel="Diesel"
+                               typeofTransmission="Automatic"
+                               previousPrice=""
+                               price="20,000">
+            </product-component>
+        </div>
+    </div>
+    <div class="buySellContainer">
+        <div class="buyContainer buySellChildrenContainer">
+            <h1 class="buySellTitle">Are You Looking For A Car ?</h1>
+            <p>We are committed to providing our customers with
+                exceptional service.</p>
+            <button class="getStarted">Get Started <img src="../../Assets/General/ArrowToTheRight.svg" alt=" "></button>
+            <img class="buySellSvgs" src="../../Assets/General/EletricCar.svg" alt=" ">
+        </div>
+        <div class="sellContainer buySellChildrenContainer">
+            <h1 class="buySellTitle">Do You Want To Sell A Car ?</h1>
+            <p>We are committed to providing our customers with
+                exceptional service.</p>
+            <button class="getStarted">Get Started <img src="../../Assets/General/ArrowToTheRight.svg" alt=" "></button>
+            <img class="buySellSvgs" src="../../Assets/General/Bill.svg" alt=" ">
+        </div>
+    </div>
+    <div class="chooseProduct">
+        <h1 class="productContainertitle">Reccomended Cars For You</h1>
+        <div class="multipleProductContainer">
+            <product-component productImg="../../Assets\ProductAssets\CarImages\Ranger-Black.png"
+                               onSale="true"
+                               greatPrice="false"
+                               lowMileage="false"
+                               productTitle="Ranger Black"
+                               productDesc="1.0 D1 Power Momentum AWD"
+                               mileage="1500"
+                               typeOfFuel="Petrol"
+                               typeofTransmission="Manual"
+                               previousPrice="10,000"
+                               price="8,999">
+            </product-component>
+            <product-component productImg="../../Assets/ProductAssets/CarImages/T-Cross.png"
+                                onSale="false"
+                                greatPrice="true"
+                                lowMileage="false"
+                                productTitle="T-Cross"
+                                productDesc="2.9 D5 Power Momentum AWD"
+                                mileage="510"
+                                typeOfFuel="Diesel"
+                                typeofTransmission="Automatic"
+                                previousPrice=""
+                                price="32,000">
+            </product-component>
+            <product-component productImg="../../Assets/ProductAssets/CarImages/Mercades-Benz-C-Class.png"
+                               onSale="false"
+                               greatPrice="false"
+                               lowMileage="true"
+                               productTitle="Mercedes Benz C Class"
+                               productDesc="3.5 D3 Power Momentum AWD"
+                               mileage="49"
+                               typeOfFuel="Hydrogen"
+                               typeofTransmission="CVT"
+                               previousPrice=""
+                               price="11,999">
+            </product-component>
+            <product-component productImg="../../Assets/ProductAssets/CarImages/Ford-Explorer.png"
+                               onSale=""
+                               greatPrice="false"
+                               lowMileage="false"
+                               productTitle="Ford Explorer"
+                               productDesc="1.17 D8 Power Momentum AWD"
+                               mileage="1300"
+                               typeOfFuel="Petrol"
+                               typeofTransmission="Automatic"
+                               previousPrice=""
+                               price="56,000">
+            </product-component>
+        </div>
+    </div>
+    <div class="onlineFrameContainer">
+        <div class="onlineFrame">
+            <img src="../../Assets/General/OnlineGetStartedCarImg.png" alt="">
+            <div class="onlineFrameFakeContainer">
+                <h1>Online, in-person, everywhere</h1>
+                <p>Choose from thousands of vehicles from multiple brands and buy online with Click
+                    & Drive, or visit us at one of our dealerships today.</p>
+                <button class="onlineGetStarted">Get Started <img src="../../Assets/General/ArrowToTheRight.svg" alt=" "></button>
+            </div>
+        </div>
+        <div class="onlineStats">
+            <div class="onlineStat">
+                <h1>836M</h1>
+                <p>Cars for Sale</p>
+            </div>
+            <div class="onlineStat">
+                <h1>738M</h1>
+                <p>Deal Reviews</p>
+            </div>
+            <div class="onlineStat">
+                <h1>100M</h1>
+                <p>Visitors per Day</p>
+            </div>
+            <div class="onlineStat">
+                <h1>238M</h1>
+                <p>Verified Dealers</p>
+            </div>
+        </div>
+    </div>
+    <div class="chooseProduct">
+        <h1 class="productContainertitle">New Upcoming Cars</h1>
+        <div class="multipleProductContainer">
+            <product-component productImg="../../Assets/ProductAssets/CarImages/BMW-X8.png"
+                               onSale="false"
+                               greatPrice="false"
+                               lowMileage="false"
+                               productTitle="BMW X8"
+                               productDesc="4.0 D5 Power Momentum AWD"
+                               mileage="150"
+                               typeOfFuel="Diesel"
+                               typeofTransmission="Automatic"
+                               previousPrice=""
+                               price="17,293">
+            </product-component>
+            <product-component productImg="../../Assets/ProductAssets/CarImages/Ford-Transit.png"
+                                onSale="false"
+                                greatPrice="true"
+                                lowMileage="false"
+                                productTitle="Ford Transit"
+                                productDesc="2.1 D5 Horse Momentum AWD"
+                                mileage="5500"
+                                typeOfFuel="Diesel"
+                                typeofTransmission="CVT"
+                                previousPrice=""
+                                price="4,000">
+            </product-component>
+            <product-component productImg="../../Assets/ProductAssets/CarImages/C-Class.png"
+                               onSale="true"
+                               greatPrice="false"
+                               lowMileage="false"
+                               productTitle="C Class"
+                               productDesc="3.5 D3 Power Momentum AWD"
+                               mileage="321"
+                               typeOfFuel="Petrol"
+                               typeofTransmission="Manual"
+                               previousPrice="19,999"
+                               price="11,999">
+            </product-component>
+            <product-component productImg="../../Assets/ProductAssets/CarImages/New-GLC.png"
+                               onSale="false"
+                               greatPrice="false"
+                               lowMileage="true"
+                               productTitle="New GLC"
+                               productDesc="6.9 D6 Power Momentum AWD"
+                               mileage="1.9"
+                               typeOfFuel="Petrol"
+                               typeofTransmission="Manual"
+                               previousPrice=""
+                               price="19,000">
+            </product-component>
+        </div>
+    </div>
+    <div class="customerReviewsContainer">
+        <h1>What Our Customers Say</h1>
+        <div class="reviewFakeContainer">
+            <review-component 
+            rating="5"
+            verified="True"
+            title="Sales process was simple and easy"
+            description="Sales process was simple and easy.
+            Maximillion was friendly and I didnt feel"
+            author="Ali Tufan"></review-component>
+            <review-component 
+            rating="4"
+            verified="false"
+            title="Good job for project"
+            description="Sales process was simple and easy.
+            Maximillion was friendly and I didnt feel..."
+            author="John Doe"></review-component>
+            <review-component 
+            rating="3"
+            verified="True"
+            title="Sales process was simple and easy."
+            description="Sales At Voiture what matters to us is making
+            your car search and buying."
+            author="Brooklyn Simmons"></review-component>
+            <review-component 
+            rating="1"
+            verified="false"
+            title="Sales process was simple and easy"
+            description="Sales process was simple and easy.
+            Maximillion was friendly and I didnt feel"
+            author="Augusta Silva"></review-component>
+        </div>
+    </div>
+    <div class="blogContainer">
+        <h1>Latest Blog Posts</h1>
+        <div class="blogFakeContainer">
+            <blog-component 
+                            blogImg="../../Assets/Blog/CarImgs/image.png"
+                            sound="True"
+                            accessories="False"
+                            exterior="False"
+                            writer="John Doe"
+                            date="12 March 2024"
+                            blogTitle="BoxCars Annual Anniversary - The Day where it all Began!"
+                            ></blog-component>
+            <blog-component 
+                            blogImg="../../Assets/Blog/CarImgs/image1.png"
+                            sound="false"
+                            accessories="True"
+                            exterior="False"
+                            writer="Admin"
+                            date="29 Febuary 2020"
+                            blogTitle="BoxCars Grand Reopening - First Dealership Opened in Texas!"
+                            ></blog-component>
+            <blog-component 
+                            blogImg="../../Assets/Blog/CarImgs/image2.png"
+                            sound="false"
+                            accessories="False"
+                            exterior="True"
+                            writer="David Pilkey"
+                            date="31 December 2023"
+                            blogTitle="Review on last Year's Sales - BoxCars has SkyRocketed!"
+                            ></blog-component>
+            <blog-component 
+                            class="specialBlogComponent"
+                            blogImg="../../Assets/ProductAssets/CarImages/Audi-A4.png"
+                            sound="false"
+                            accessories="False"
+                            exterior="false"
+                            writer="Jerry Craft"
+                            date="1 January 2022"
+                            blogTitle="Review on last Year's Sales - BoxCars has launched in Europe!"
+                            ></blog-component>
+        </div>
+    </div>
+    <div class="brandsContainer">
+        <brand-component src="../../Assets/BrandAssets/BMW.svg" title="BMW"></brand-component>
+        <brand-component src="../../Assets/BrandAssets/Audi.svg" title="Audi"></brand-component>
+        <brand-component src="../../Assets/BrandAssets/Ford.svg" title="Ford"></brand-component>
+        <brand-component src="../../Assets/BrandAssets/Mercedes.svg" title="Mercedes"></brand-component>
+        <brand-component src="../../Assets/BrandAssets/Peugeot.svg" title="Peugeot"></brand-component>
+        <brand-component src="../../Assets/BrandAssets/Volkswagen.svg" title="Volkswagen"></brand-component>
+    </div>
+    <div class="contactFrame">
+        <img src="../../Assets/General/WomanSmiling.png" alt="">
+        <div class="contactFrameFakeContainer">
+            <h1>Have anymore Questions? Dont Hesitate to reach us</h1>
+            <p>123 Queensberry Street, North <br>
+                Melbourne VIC3051, Australia.</p>
+                <div class="contactDetails">
+                    <div class="contactPhone contactDiv"><img src="../../Assets/NavigationAssets/Phone.svg" alt="">+76 956 039 999</div>
+                    <div class="contactEmail contactDiv"><img src="../../Assets/General/Email.svg" alt="">ali@boxcars.com</div>
+                </div>
+            <button class="contactGetStarted">Get Started <img src="../../Assets/General/ArrowToTheRight.svg" alt=" "></button>
+        </div>
+    </div>
+    <footer-component></footer-component>
+</body>
+<script src="../../Components/Footer/index.js"></script>
+<script src="../../Components/Brand/index.js"></script>
+<script src="../../Components/Blog/index.js"></script>
+<script src="../../Components/Reviews/index.js"></script>
+<script src="../../Components/Navigation/index.js"></script>
+<script src="../../Components/Type/index.js"></script>
+<script src="../../Components/Products/index.js"></script>
+</html>
