@@ -10,12 +10,12 @@ class NavigationComponent extends HTMLElement {
             <div class="navBarLeft">
                 <img src="../../Assets/General/Logo.svg" alt="">
                 <ul class="navBarList" id="navBarList">
-                    <li class="dropDownListItem">Home</li>
+                <a href="../../Pages/Home/index.html"><li class="dropDownListItem">Home</li></a>
                 <a href="../../Pages/Listings/index.html"><li class="dropDownListItem">Listings</li></a>
                     <li class="dropDownListItem">Blog</li>
                     <li class="dropDownListItem">Pages</li>
                     <span class="navBarListAlignment">
-                    <li class="nothingListItem">About</li>
+                <a href="../../Pages/About_Us/index.html"><li class="nothingListItem">About</li></a>
                     <li class="nothingListItem">Contact</li>
                     </span>
                     <div class="contactNumber">

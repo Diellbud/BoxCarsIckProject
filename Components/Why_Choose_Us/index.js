@@ -11,7 +11,7 @@ class FinancingOfferComponent extends HTMLElement {
             'Our stress-free finance department that can find financial solutions to save you money.';
         const svgSource =
             this.getAttribute('svgSource') ||
-            'c:/Users/darisd/Desktop/Git_Projects/BoxCarsIckProject/Assets/WhyChooseUsSvgs/FinancingOffers.svg';
+            '../../Assets/WhyChooseUsSvgs/FinancingOffers.svg';
 
         this.innerHTML = `
             <link rel="stylesheet" href="../../Components/WhyChooseUs/index.css">

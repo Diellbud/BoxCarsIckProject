@@ -339,9 +339,9 @@ margin-top: 100px;
 .brandsComponent{
     margin-top: 30px;
     display: flex;
-    justify-content: center; 
-    align-items: stretch; 
-    
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .brandsHeader{
