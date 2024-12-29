@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav-bar-component></nav-bar-component>
+    <div class="container">
+        <div class="checkoutDetails">
+            <form class="billingAddress">
+                <h2>Billing Address</h2>
+                <div class="specialBillingContainer">
+                    <div class="formPositioningContainer">
+                        <label for="FirstName">First Name</label>
+                        <input required id="FirstName" type="text">
+                    </div>
+                    <div class="formPositioningContainer">
+                        <label for="LastName">Last Name</label>
+                        <input required id="LastName" type="text">
+                    </div>
+                </div>
+                <div class="formPositioningContainer">
+                    <label for="email">Email Address</label>
+                    <input required id="email" type="email">
+                </div>
+                <div class="streetAddress">
+                    <div class="formPositioningContainer">
+                        <label for="streetAddress">Street Address</label>
+                        <input required id="streetAddress" type="text">
+                        <input required id="streetAddress" type="text">
+                    </div>
+                </div>
+                <div class="specialBillingContainer">
+                    <div class="formPositioningContainer">
+                        <label for="state">State/Province</label>
+                        <select id="state" required>
+                            <option value="1">California</option>
+                            <option value="2">Washington</option>
+                            <option value="3">New York</option>
+                            <option value="4">Texas</option>
+                            <option value="5">Florida</option>
+                        </select>
+                    </div>
+                    <div class="formPositioningContainer">
+                        <label for="city">City</label>
+                        <input required id="city" type="text">
+                    </div>
+                </div>
+                <div class="specialBillingContainer">
+                    <div class="formPositioningContainer">
+                        <label for="zipCode">Zip/Postal Code</label>
+                        <input required id="zipCode" type="number">
+                    </div>
+                    <div class="formPositioningContainer">
+                        <label for="phoneNumber">Phone</label>
+                        <input required id="phoneNumber" type="number">
+                    </div>
+                </div>
+                <div class="billingIsEqualToShippingContainer">
+                    <input class="billingIsEqualToShipping" type="checkbox" required id="billingIsEqualToShipping">
+                    <label for="billingIsEqualToShipping">Billing Address and Shipping Address is the same</label>
+                </div>
+                <div class="createAccountForLaterUseContainer">
+                    <input class="createAccountForLaterUse" type="checkbox" required id="createAccountForLaterUse">
+                    <label for="createAccountForLaterUse">Create Account For Later Use</label>
+                </div>
+            </form>
+            <form class="shippingMethod">
+                <h2>Billing Address</h2>
+                <div class="shippingContainer">
+                    <div>
+                        <input id="slowShipping" value="slowShipping" checked name="shippingType" type="radio">
+                        <h4>$199.99</h4>
+                    </div>
+
+                    <p>USPS 1st Class With Tracking <br>
+                        (5 - 13 days) </p>
+                    <img src="../../Assets/CheckoutAssets/ups.png" alt="">
+                </div>
+                <div class="shippingContainer">
+                    <div>
+                        <input id="fastShipping" value="fastShipping" name="shippingType" type="radio">
+                        <h4>$299.99</h4>
+                    </div>
+
+                    <p>USPS PRIORITY With Tracking <br>
+                        (5 - 10 days) </p>
+                    <img src="../../Assets/CheckoutAssets/ups.png" alt="">
+                </div>
+            </form>
+            <form class="paymentMethod">
+                <h2>Payment Method</h2>
+                <div class="paymentContainer">
+                    <div class="paypalContainer">
+                        <input id="paypal" value="paypal" name="PaymentType" type="radio">
+                        <h4>PayPal</h4>
+                    </div>
+
+                    <p>You will be redirected to the PayPal website after submitting your order.</p>
+                    <img src="../../Assets/CheckoutAssets/paypal.png" alt="">
+                </div>
+                <div class="paymentContainer specialPay">
+                    <div class="creditCardContainer">
+                        <input id="creditCard" checked value="creditCard" name="PaymentType" type="radio">
+                        <h4>Credit Card</h4>
+                    </div>
+                    <div class="specialPayContainer">
+                        <input type="number" placeholder="Card Number">
+                        <input type="month" placeholder="Card Number">
+                        <input type="password" placeholder="CVV">
+                    </div>
+                    <div class="availCreditCards">
+                        <img src="../../Assets/CheckoutAssets/Visa.png" alt="">
+                        <img src="../../Assets/CheckoutAssets/discover.png" alt="">
+                        <img src="../../Assets/CheckoutAssets/mastero.png" alt="">
+                        <img src="../../Assets/CheckoutAssets/mastercard.png" alt="">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <div class="checkoutTotalReciept">
+            <div class="orderReview">
+                <h2>Order Review</h2>
+                <div class="quantityContainer">
+                    <img src="../../Assets/CheckoutAssets/box.png" alt="">
+                    <div>
+                        <p>Amet nunc, tincidunt interdum rhoncus massa</p>
+                        <div>
+                            <div>-</div>
+                            <p>2</p>
+                            <div>+</div>
+                        </div>
+                    </div>
+                    <div class="quantityPrice">
+                        <p class="quantityStrikeThrough">$245,78</p>
+                        <p>$245,78</p>
+                    </div>
+                </div>
+                <div class="quantityContainer">
+                    <img src="../../Assets/CheckoutAssets/box.png" alt="">
+                    <div>
+                        <p>Amet nunc, tincidunt interdum rhoncus massa</p>
+                        <div>
+                            <div>-</div>
+                            <p>2</p>
+                            <div>+</div>
+                        </div>
+                    </div>
+                    <div class="quantityPrice">
+                        <p class="quantityStrikeThrough">$245,78</p>
+                        <p>$245,78</p>
+                    </div>
+                </div>
+                <div class="quantityContainer">
+                    <img src="../../Assets/CheckoutAssets/box.png" alt="">
+                    <div>
+                        <p>Amet nunc, tincidunt interdum rhoncus massa</p>
+                        <div>
+                            <div>-</div>
+                            <p>2</p>
+                            <div>+</div>
+                        </div>
+                    </div>
+                    <div class="quantityPrice">
+                        <p class="quantityStrikeThrough">$245,78</p>
+                        <p>$245,78</p>
+                    </div>
+                </div>
+            </div>
+            <div class="orderDiscounts">
+                <h2>Discount Codes</h2>
+                <form>
+                    <div class="formPositioningContainer">
+                        <label for="discountCode">Enter Your Coupon Code</label>
+                        <input id="discountCode" type="text">
+                    </div>
+                </form>
+            </div>
+            <div class="recieptContainer">
+                <h2>Billing Summary</h2><br>
+                <div class="checkoutReciept">
+                    <div class="recieptItem">
+                        <p>Subtotal</p>
+                        <p>$3790.99</p>
+                    </div>
+                    <div class="recieptItem">
+                        <p>Discount</p>
+                        <p>$749.99</p>
+                    </div>
+                    <div class="recieptItem">
+                        <p>Warranty</p>
+                        <p>$259.99</p>
+                    </div>
+                    <div class="recieptItem">
+                        <p>Shipping</p>
+                        <p>$0.00</p>
+                    </div>
+                    <div class="recieptItem specialItem">
+                        <p>Tax</p>
+                        <p>$228.72</p>
+                    </div>
+                    <div class="recieptItem">
+                        <h3>Grand Total</h3>
+                        <p>$4909.99</p>
+                    </div>
+                    <div class="agreeTermsContainer">
+                        <input class="agreeTerms" type="checkbox" required name="agreeTerms" id="agreeTerms">
+                        <label for="agreeTerms">Agree to Our terms and Conditions</label>
+                    </div>
+                </div>
+            </div>
+            <input class="submitButton" type="submit" value="Confirm" onclick="location.href='../Home/index.html';">
+        </div>
+    </div>
+</body>
+<script src="../../Components/Navigation/index.js"></script>
+
+</html>
