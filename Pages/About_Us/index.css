@@ -9,11 +9,12 @@
 body{
     overflow-x: hidden;
 }
-.imageContainer{
-    margin-top: 130px;
+.backgroundImageContainer{
+    margin-top: 7em;
     position: relative; 
-    width: 80%;
-    margin-left: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
     border-radius: 20px;
 }
 
@@ -33,66 +34,65 @@ body{
     font-size: 70px;
 }
 
-.secondHeader{
+.whyChooseUsHeader{
     margin-top: 200px;
     text-align: center;
     font-size: 27px;
 }
 
-.firstContainer{
-    background-color:white;
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);     width: 380px;
-    height: 180px;
-    margin-top: 50px;
-    margin-left: 100px;
+.whyChooseUsContainer {
+    background-color: white;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    height: 260px;
+    margin: 20px auto; 
     border-radius: 13px;
-
 }
 
-.textInsideContainer{
+.textInsideWhyChooseUsContainer{
     margin-top: -65px;
-    padding-left: 80px; 
+    padding-left: 3em; 
     text-align: center;
 
 }
 
-.svgForContainer{
-  width: 70px;
-  height: 70px;
-  padding-left: 20px;
-  padding-top: 10px;
+.svgForContainer {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px; 
+    align-items: start; 
 }
 
-.componentParagraph{
-    padding-top: 20px;
-    padding-left: 13px;
+.componentParagraph {
+    text-align: start; 
+    margin-top: 10px; 
+     
 }
 
 .financingOffers {  
     display: grid;  
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 1px; 
-    
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
 }  
 
 .twoImageContainer{
 display: grid;
 grid-template-columns: auto auto;
 gap: 15px;
-margin-top: 100px;
+margin-top: 5em;
 }
 
 .twoImageContainer img {
     border-radius: 10px;
     width: 100%;
     height: auto;
-    object-fit: cover;
 
 }
 
 .smallImage{
-    max-width: 280px;
-    margin-top: 210px;
+    max-width: 280px;    
 }
 
 .largeImage{
@@ -196,9 +196,8 @@ margin-top: 100px;
     padding-top: 30px;
 }
 
-    reviewComponentStyle {
-    flex: 1 1 calc(25% - 20px); 
-    max-width: 300px; 
+    reviewComponentStyle { 
+    max-width: 10em; 
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 8px; 
 }
@@ -214,13 +213,13 @@ margin-top: 100px;
 
 .carsBodyStyleHeader{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 3em;
  }
 
-    .productsSubHeader{
-        padding-top: 130px;
-        padding-left: 20px;
-    }
+.productsSubHeader{
+     margin-top: 3.5em;
+     padding-left: 20px;
+}
 
 .productsComponent{
     display: flex;
@@ -232,7 +231,7 @@ margin-top: 100px;
 }
 
 
-.onlineFrameContainer {
+.loanFrameContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -241,7 +240,7 @@ margin-top: 100px;
     border-radius: 15px;
 }
 
-.onlineFrame {
+.loanFrame {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,12 +252,12 @@ margin-top: 100px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
-.onlineFrame img {
+.loanFrame img {
     width: 40%; 
     padding-right: 30px; 
 }
 
-.onlineFrameFakeContainer {
+.loanFrameFakeContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -327,8 +326,7 @@ margin-top: 100px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100%;
+    width: 104%;
     text-align: center;
 }
 
@@ -345,13 +343,13 @@ margin-top: 100px;
 }
 
 .brandsHeader{
-    margin-top: 120px;
-    margin-left: 20px;
+    margin-top: 4em;
+    margin-left: 30px;
 }
 
 .blogHeader{
-    margin-top: 140px;
-    margin-left: 50px;
+    margin-top: 4em;
+    margin-left: 30px;
 }
 
 .blogComponent{
@@ -363,10 +361,340 @@ margin-top: 100px;
 }
 
 .footerComponent{
-    margin-top: 120px;
+    margin-top: 6em;
 }
 
 
 body{
     overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .millionsList {
+        display: none;
+    }
+
+    .mainHeader {
+        font-size: 50px; 
+        top: 25%; 
+    }
+
+    .backgroundImageContainer {
+        flex-direction: column;
+        margin-top: 3em;
+    }
+
+    .whyChooseUsHeader {
+        font-size: 22px;
+        margin-top: 80px;
+    }
+
+    .whyChooseUsContainer {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+
+    .svgForContainer {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+    }
+
+    .componentParagraph {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .financingOffers {
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 15px;
+    }
+
+    .twoImageContainer {
+        display: grid;
+        grid-template-columns: 1fr;  
+        gap: 15px;
+        margin-top: 3em;
+    }
+
+    .twoImageContainer img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .smallImage {
+        max-width: 100%; 
+    }
+
+    .largeImage {
+        max-width: 100%; 
+    }
+
+    .imageAndTextContainer {
+        flex-direction: column;  
+        gap: 30px;  
+        align-items: center;  
+        width: 100%;  
+    }
+
+    .textContainer {
+        max-width: 100%; 
+        text-align: center;  
+    }
+
+    .textContainer h2 {
+        font-size: 24px; 
+    }
+
+    .textContainer p {
+        margin-bottom: 20px;
+    }
+
+    .textContainer button {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    .twoImagesPageContainer {
+        height: auto;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .reviewComponentStyle {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;  
+        margin-bottom: 40px;  
+    }
+
+    .carsBodyStyle {
+        display: none;
+    }
+
+    .productsComponent {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;  
+        margin-top: 40px;  
+        margin-bottom: 40px;  
+    }
+
+    .loanFrameContainer {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .loanFrame {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .loanFrame img {
+        width: 60%;
+        padding-right: 0;
+    }
+
+    .loanFrameFakeContainer {
+        max-width: 100%;
+    }
+
+    .textInsideOnlineFrame h1 {
+        font-size: 22px;
+    }
+
+    .loanCalculatorFormContainer {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .loanCalculatorForm {
+        width: 100%;
+    }
+
+    .formGroup input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .calculateButton {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .brandsComponent {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .brandsHeader,
+    .blogHeader {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .blogComponent {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footerComponent {
+        margin-top: 3em;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .millionsList {
+        display: none;
+    }
+
+    .mainHeader {
+        font-size: 40px;
+    }
+
+    .backgroundImageContainer {
+        margin-top: 2em;
+    }
+
+    .whyChooseUsHeader {
+        font-size: 18px;
+    }
+
+    .whyChooseUsContainer {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .svgForContainer {
+        width: 40px;
+        height: 40px;
+    }
+
+    .financingOffers {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .twoImageContainer {
+        display: grid;
+        grid-template-columns: 1fr;  
+        gap: 10px;
+    }
+
+    .twoImageContainer img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .smallImage {
+        max-width: 100%;
+    }
+
+    .largeImage {
+        max-width: 100%;
+    }
+
+    .imageAndTextContainer {
+        flex-direction: column;  
+        gap: 20px;  
+        align-items: center;
+        width: 100%; 
+    }
+
+    .textContainer {
+        max-width: 100%;  
+        text-align: center;
+    }
+
+    .textContainer h2 {
+        font-size: 20px;  
+    }
+
+    .textContainer p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .textContainer button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .twoImagesPageContainer {
+        height: auto;
+        padding: 15px;
+    }
+
+    .reviewComponentStyle {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+
+    .carsBodyStyle {
+        display: none;
+    }
+
+    .productsComponent {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .loanFrameContainer {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .loanFrame {
+        padding: 25px;
+    }
+
+    .loanFrame img {
+        width: 70%;
+    }
+
+    .loanFrameFakeContainer {
+        max-width: 100%;
+    }
+
+    .loanCalculatorFormContainer {
+        max-width: 90%;
+    }
+
+    .calculateButton {
+        padding: 10px;
+    }
+
+    .formGroup input {
+        font-size: 14px;
+    }
+
+    .brandsComponent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blogComponent {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footerComponent {
+        margin-top: 2em;
+    }
 }
