@@ -7,9 +7,9 @@ class BlogComponent extends HTMLElement {
         const isSound = this.getAttribute('sound') == "True" 
         const isAccessories = this.getAttribute('accessories') == "True" 
         const isExterior = this.getAttribute('exterior') == "True" 
-        const Writer = this.getAttribute('writer') 
-        const Date = this.getAttribute('date') 
-        const BlogTitle = this.getAttribute('blogTitle')
+        const writer = this.getAttribute('writer') 
+        const date = this.getAttribute('date') 
+        const blogTitle = this.getAttribute('blogTitle')
         let blogValue = '';
         if (isSound) {
             blogValue += `<div class="blogType soundBlogType"><p>Sound</p></div>`;
@@ -29,10 +29,10 @@ class BlogComponent extends HTMLElement {
         </div>
         <div class="blogDetails">
             <div class="blogInfo">
-                <p>${Writer}</p>
-                <p>${Date}</p>
+                <p>${writer}</p>
+                <p>${date}</p>
             </div>
-            <h3>${BlogTitle}</h3>
+            <h3>${blogTitle}</h3>
         </div>
     </div>
         `

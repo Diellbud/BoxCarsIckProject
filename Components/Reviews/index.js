@@ -7,7 +7,7 @@ class ReviewComponent extends HTMLElement {
         const Verified = this.getAttribute('verified')
         const Title = this.getAttribute('title')
         const Description = this.getAttribute('description')
-        const Author = this.getAttribute('author')
+        const author = this.getAttribute('author')
         let reviewRating = '';
         if (Rating === "1") {
             reviewRating += `<img class="star" src="../../Assets/Review/FullStar.svg" alt="">
@@ -61,7 +61,7 @@ class ReviewComponent extends HTMLElement {
         <div class="reviewText">
             <h2>${Title}</h2>
             <p class="reviewDesc">${Description}</p>
-            <p class="Author">${Author}</p>
+            <p class="author">${author}</p>
         </div>
     </div>
         `
