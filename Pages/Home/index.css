@@ -4,7 +4,19 @@
     padding: 0;
     font-family: "DM Sans", serif;
 }
-.topSection {
+
+body{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    gap: 60px;
+}
+
+.mainImageContainer {
     background-image: url(../../Assets/General/Background.png);
     height: 960px;
     width: 100%;
@@ -14,51 +26,39 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 120px;
     color: white;
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
-.topSectionDiv {
-    align-items: start;
+.prizeHeader{
+    display: flex;
+    justify-content: start;
+    margin-left: 20%;
 }
 
-.topFontContainer {
+.descriptionHeader {
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
     display: flex;
     align-items: center;
+    flex-direction: row;
     color: white;
     font-family: 'DM Sans';
-    padding-left: 120px;
+    margin-left: 20%;
 }
 
-.topFontContainer2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 100px;
-    line-height: 75px;
-    display: flex;
-    align-items: center;
-    color: white;
-    font-family: 'DM Sans';
-    padding-left: 120px;
-}
-
-.topSectionDiv2 {
+.mainImageSvgContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
-    width: 450px;
-    padding-left: 85px;
     padding-top: 10px;
+    margin-left: 20%;
 }
 
-.topContainerDiv {
+.mainImageSvg {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +67,7 @@
 }
 
 .learnMoreButton {
-    margin-left: 120px;
+    margin-left: 20%;
     padding: 10px 20px 10px 20px;
     margin-top: 50px;
     display: flex;
@@ -76,177 +76,131 @@
     border-radius: 10px;
 }
 
-.sectionTypeCar {
+.cartypeSection {
     display: flex;
-    margin: 170px;
     background-color: #ffffff;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: space-around;
+    margin-top: -15%;
+
 }
 
-.browseByTypeArticle {
+.browseByType {
     display: flex;
-    padding: 10px 20px 10px 20px;
-    margin-top: 50px ;
     gap: 10px;
     border-radius: 10px;
     justify-content: space-between;
     color: #050b20;
-    margin-left: 120px;
+
 }
 
 .viewAllButton {
-    margin-left: 120px;
     padding: 10px 20px 10px 20px;
     display: flex;
-    justify-content: center;
     gap: 10px;
     border-radius: 10px;
 }
 
-
-.carTypesArticle {
-    padding-left: 15px;
-    width: min-content;
-
-}
-
-.bigContainerCarType {
+.browseByTypeContainer {
     display: flex;
     gap: 15px;
 }
 
-.sedan {
-    display: flex;
-    justify-content: center;
-    color: #050b20;
+.exploreAllVehiclesContainer{
+   display: flex;
+   flex-direction: column;
+
 }
 
-.exploreAllVehicleSection {
-    align-items: start;
-}
-
-.exploreAllVehicleDiv {
+.exploreAllVehicles {
     display: flex;
-    margin-left: 300px;
-    margin-right: 165px;
-    padding: 10px 20px 10px 20px;
-    margin-top: 50px;
-    display: flex;
-    gap: 10px;
-    border-radius: 10px;
-    justify-content: space-around;
-    color: #050b20;
-}
-
-
-.vehicleExploreHeader {
-    align-items: start;
+    margin-top: 10%;
     justify-content: space-between;
-    margin-left: 120px;
-    margin-right: 200px;
 }
 
-.exploreAllVehicleDiv2 {
+.ExploreAllVehiclesHeader{
     display: flex;
-    padding: 10px 20px 10px 20px;
 }
 
-.recentCarsText {
-    display: flex;
-    justify-content: start;
-    margin-left: 120px;
-    
-}
-
-.viewAllButton2 {
-    margin-left: 150px;
-    margin-right: 100px;
-    padding: 10px 20px 10px 20px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    border-radius: 10px;
-    
-}
-
-
-.sectionVehiclesSelected{
-    display: flex   ;
-    margin: 170px;
-    background-color: #ffffff;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-
-.eightCarDiv{
+.bigCarContainer{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 120px;
-    gap: 15px;
+    gap: 5px;
+    margin-right: -20%;
 }
 
-.onlineInPersonDiv{
+.onlineInPerson{
     display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: start;
-    margin-left: 300px;
-    gap: 30px;
+    margin-top: 15%;
 }
 
 .getStartedButton{
     display: flex;
-    justify-content: center;
+    align-items: center;
     gap: 10px;
     border-radius: 5px;
-    width: 150px;
-    background-color: #050B20;
-    color: #ffffff;
-}
-
-.onlineInPersonHeader{
-    width: 250px;
+    background-color: white;
+    color: black;
 }
 
 .onlineInPersonParagraph{
-    margin-right: 975px;
+    display: flex;
+    align-content: center;
 }
 
-.fourParagraphText{
+.whyChooseUsContainer{
     display: flex;
-    margin-left: 300px;
     flex-direction: row;
     gap: 15px;
     background-color: #ffffff;
-    margin-right: 275px;
 }
 
-.whyChooseUsDiv{
+.whyChooseHeader{
 display: flex;
-align-items: flex-start;
-margin-left: 300px;
-margin-top: 250px;
+justify-content: center;
 gap: 10px;
+margin-top: 20%;
 }
 
-.specialOffersText{
+.specialOffersHeader{
     display: flex;
     justify-content: start;
-    margin-left: 270px;
-    margin-top: 200px;
-    margin-bottom: 50px;
+    margin-top: 25%;
 }
 
-.fourCarSection{
-    margin-left: 270px;
-}
-
-.fourCarDiv{
+.SpecialOffersContainer{
 display: flex;
 flex-direction: row;
 gap: 15px;
+}
+
+.reviewHeader{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20%;
+}
+
+.reviewFakeContainer{
+    display: flex;
+    gap: 30px;
+    flex-direction: row
+}
+
+.manufacturerHeader{
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.manufacturerContainer{
+    display: flex;
+    flex-direction: row;
+
 }
