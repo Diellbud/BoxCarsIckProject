@@ -49,6 +49,14 @@ body{
     border-radius: 13px;
 }
 
+.financingOffers {  
+    display: grid;  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
+} 
+
 .textInsideWhyChooseUsContainer{
     margin-top: -65px;
     padding-left: 3em; 
@@ -68,14 +76,6 @@ body{
     margin-top: 10px; 
      
 }
-
-.financingOffers {  
-    display: grid;  
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-    gap: 20px; 
-    justify-content: center; 
-    align-items: center; 
-}  
 
 .twoImageContainer{
 display: grid;
