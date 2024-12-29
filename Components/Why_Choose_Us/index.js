@@ -15,10 +15,10 @@ class FinancingOfferComponent extends HTMLElement {
 
         this.innerHTML = `
             <link rel="stylesheet" href="../../Components/WhyChooseUs/index.css">
-            <div class="firstContainer">
+            <div class="whyChooseUsContainer">
                 <img src="${svgSource}" 
                      alt="svg" class="svgForContainer">
-                <h2 class="textInsideContainer">
+                <h2 class="">
                     ${title} <br> <span>${subtitle}</span>
                 </h2>
                 <p class="componentParagraph">

@@ -374,9 +374,19 @@ body{
         display: none;
     }
 
+    .reviewComponentStyle,
+    .productsComponent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
     .mainHeader {
-        font-size: 50px; 
-        top: 25%; 
+        font-size: 50px;
+        top: 25%;
     }
 
     .backgroundImageContainer {
@@ -407,16 +417,20 @@ body{
         margin-top: 10px;
     }
 
-    .financingOffers {
+
+    .carsBodyStyleHeader{
+        display: none;
+     }
+
+
+    .financingOffers,
+    .twoImageContainer {
         display: grid;
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
         gap: 15px;
     }
 
     .twoImageContainer {
-        display: grid;
-        grid-template-columns: 1fr;  
-        gap: 15px;
         margin-top: 3em;
     }
 
@@ -426,28 +440,24 @@ body{
         border-radius: 10px;
     }
 
-    .smallImage {
-        max-width: 100%; 
-    }
-
-    .largeImage {
-        max-width: 100%; 
+    .smallImage, .largeImage {
+        max-width: 100%;
     }
 
     .imageAndTextContainer {
-        flex-direction: column;  
-        gap: 30px;  
-        align-items: center;  
-        width: 100%;  
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        width: 100%;
     }
 
     .textContainer {
-        max-width: 100%; 
-        text-align: center;  
+        max-width: 100%;
+        text-align: center;
     }
 
     .textContainer h2 {
-        font-size: 24px; 
+        font-size: 24px;
     }
 
     .textContainer p {
@@ -466,22 +476,23 @@ body{
     }
 
     .reviewComponentStyle {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;  
-        margin-bottom: 40px;  
+        display: none;
+    }
+    .containerForReviews{
+      display: none;
+      }
+    
+    
+    .reviewsSubHeader{
+        display: none;
+    }
+    
+      .reviewComponentStyle {
+        display: none;
     }
 
     .carsBodyStyle {
         display: none;
-    }
-
-    .productsComponent {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;  
-        margin-top: 40px;  
-        margin-bottom: 40px;  
     }
 
     .loanFrameContainer {
@@ -503,16 +514,15 @@ body{
         max-width: 100%;
     }
 
-    .textInsideOnlineFrame h1 {
-        font-size: 22px;
-    }
-
     .loanCalculatorFormContainer {
         width: 100%;
         max-width: 400px;
         margin: 0 auto;
         padding: 15px;
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .loanCalculatorForm {
@@ -522,6 +532,7 @@ body{
     .formGroup input {
         width: 100%;
         padding: 10px;
+        box-sizing: border-box;
     }
 
     .calculateButton {
@@ -529,21 +540,10 @@ body{
         padding: 12px;
     }
 
-    .brandsComponent {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
-
-    .brandsHeader,
-    .blogHeader {
-        margin-left: 0;
-        text-align: center;
-    }
-
+    .brandsComponent,
     .blogComponent {
         flex-direction: column;
-        gap: 20px;
+        align-items: center;
     }
 
     .footerComponent {
@@ -551,10 +551,12 @@ body{
     }
 }
 
-
 @media screen and (max-width: 480px) {
-    .millionsList {
-        display: none;
+    .reviewComponentStyle,
+    .productsComponent {
+        gap: 15px;
+        padding: 8px;
+        margin: 0 auto;
     }
 
     .mainHeader {
@@ -570,7 +572,6 @@ body{
     }
 
     .whyChooseUsContainer {
-        width: 100%;
         margin-left: 0;
         margin-top: 10px;
     }
@@ -580,14 +581,8 @@ body{
         height: 40px;
     }
 
-    .financingOffers {
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
-
+    .financingOffers,
     .twoImageContainer {
-        display: grid;
-        grid-template-columns: 1fr;  
         gap: 10px;
     }
 
@@ -597,28 +592,8 @@ body{
         border-radius: 10px;
     }
 
-    .smallImage {
-        max-width: 100%;
-    }
-
-    .largeImage {
-        max-width: 100%;
-    }
-
-    .imageAndTextContainer {
-        flex-direction: column;  
-        gap: 20px;  
-        align-items: center;
-        width: 100%; 
-    }
-
-    .textContainer {
-        max-width: 100%;  
-        text-align: center;
-    }
-
     .textContainer h2 {
-        font-size: 20px;  
+        font-size: 20px;
     }
 
     .textContainer p {
@@ -632,31 +607,10 @@ body{
     }
 
     .twoImagesPageContainer {
-        height: auto;
         padding: 15px;
     }
 
-    .reviewComponentStyle {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        margin-bottom: 40px;
-    }
-
-    .carsBodyStyle {
-        display: none;
-    }
-
-    .productsComponent {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
     .loanFrameContainer {
-        width: 100%;
         padding: 15px;
     }
 
@@ -665,19 +619,12 @@ body{
     }
 
     .loanFrame img {
-        width: 70%;
-    }
-
-    .loanFrameFakeContainer {
-        max-width: 100%;
+        width: 65%;
     }
 
     .loanCalculatorFormContainer {
-        max-width: 90%;
-    }
-
-    .calculateButton {
-        padding: 10px;
+        max-width: 300px;
+        padding: 15px;
     }
 
     .formGroup input {
