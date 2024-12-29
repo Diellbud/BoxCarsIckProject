@@ -26,7 +26,7 @@ class ProductComponent extends HTMLElement {
         }
         this.innerHTML = `
              <link rel="stylesheet" href="../../Components/Products/index.css">
-    <div class="productContainer">
+    <a href="../../Pages/Checkout/index.html"><div class="productContainer">
         <div class="productImgContainer">
             <img class="productImg" src="${productImg}" alt="CAR_IMG">
             ${impressions}
@@ -64,7 +64,7 @@ class ProductComponent extends HTMLElement {
                 </div>
             </div>
         </div>
-    </div>
+    </div></a>
         `
     }
 }
